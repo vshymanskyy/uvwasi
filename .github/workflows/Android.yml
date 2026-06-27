@@ -5,7 +5,7 @@ on: [push, pull_request]
 jobs:
   build-android:
     runs-on: ubuntu-latest
-    container: reactnativecommunity/react-native-android:v12.0
+    container: reactnativecommunity/react-native-android:v20.1
     steps:
       - uses: actions/checkout@v5
       - name: Envinfo
